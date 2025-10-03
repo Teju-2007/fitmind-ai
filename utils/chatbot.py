@@ -6,6 +6,9 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 def show_chatbot():
+
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
     st.title("💬 FitMind AI Chatbot")
 
     # 👤 Load user profile
