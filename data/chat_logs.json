@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "content": "hlo"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83e\udd16 Hello! How can I assist you today?"
+  },
+  {
+    "role": "user",
+    "content": "hlo"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83e\udd16 Hello! How can I assist you today?"
+  },
+  {
+    "role": "user",
+    "content": "Can i send you a snap and get nutrition details?"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83e\udd16 I'm sorry, but I am not able to receive images or provide nutrition details based on images. If you have any questions about nutrition or need help with meal planning, feel free to ask!"
+  },
+  {
+    "role": "user",
+    "content": "hlo"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83e\udd16 Hello! How can I assist you today?"
+  }
+]

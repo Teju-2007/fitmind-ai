@@ -1,0 +1,2384 @@
+[
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Vegetable Upma", "cost": 60, "ingredients": ["semolina", "carrot", "peas"] },
+      { "name": "Curd Rice", "cost": 50, "ingredients": ["rice", "curd", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "semolina": { "quantity": "200g", "cost": 20 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "peas": { "quantity": "100g", "cost": 15 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "mustard seeds": { "quantity": "50g", "cost": 5 }
+    },
+    "total_cost": 115
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "muscle gain",
+      "health_conditions": ["low iron"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Palak Paneer", "cost": 80, "ingredients": ["spinach", "paneer", "garlic"] },
+      { "name": "Besan Chilla", "cost": 60, "ingredients": ["besan", "onion", "green chili"] }
+    ],
+    "grocery_list": {
+      "spinach": { "quantity": "300g", "cost": 25 },
+      "paneer": { "quantity": "200g", "cost": 40 },
+      "garlic": { "quantity": "50g", "cost": 10 },
+      "besan": { "quantity": "250g", "cost": 20 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "green chili": { "quantity": "5", "cost": 5 }
+    },
+    "total_cost": 110
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Lauki Chana Dal", "cost": 50, "ingredients": ["bottle gourd", "chana dal", "cumin"] },
+      { "name": "Brown Rice Khichdi", "cost": 45, "ingredients": ["brown rice", "moong dal", "turmeric"] }
+    ],
+    "grocery_list": {
+      "bottle gourd": { "quantity": "1", "cost": 20 },
+      "chana dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "brown rice": { "quantity": "200g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "turmeric": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "energy boost",
+      "health_conditions": ["thyroid"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Methi Thepla", "cost": 65, "ingredients": ["methi", "wheat flour", "curd"] },
+      { "name": "Sprouted Moong Salad", "cost": 55, "ingredients": ["sprouted moong", "tomato", "lemon"] }
+    ],
+    "grocery_list": {
+      "methi": { "quantity": "100g", "cost": 15 },
+      "wheat flour": { "quantity": "300g", "cost": 25 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "sprouted moong": { "quantity": "150g", "cost": 20 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "lemon": { "quantity": "1", "cost": 5 }
+    },
+    "total_cost": 87
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Red Rice with Boiled Vegetables", "cost": 55, "ingredients": ["red rice", "beans", "carrot"] },
+      { "name": "Fermented Bamboo Shoot Soup", "cost": 50, "ingredients": ["bamboo shoot", "ginger", "green chili"] }
+    ],
+    "grocery_list": {
+      "red rice": { "quantity": "200g", "cost": 25 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "bamboo shoot": { "quantity": "150g", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "green chili": { "quantity": "5", "cost": 5 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Ragi Dosa", "cost": 60, "ingredients": ["ragi flour", "onion", "green chili"] },
+      { "name": "Coconut Chutney", "cost": 40, "ingredients": ["coconut", "ginger", "curry leaves"] }
+    ],
+    "grocery_list": {
+      "ragi flour": { "quantity": "250g", "cost": 20 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "green chili": { "quantity": "5", "cost": 5 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 60
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 140
+    },
+    "meal_plan": [
+      { "name": "Rajma Masala", "cost": 70, "ingredients": ["rajma", "onion", "tomato"] },
+      { "name": "Jeera Rice", "cost": 60, "ingredients": ["rice", "cumin", "ghee"] }
+    ],
+    "grocery_list": {
+      "rajma": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 83
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Curry", "cost": 70, "ingredients": ["egg", "onion", "tomato"] },
+      { "name": "Parboiled Rice", "cost": 60, "ingredients": ["parboiled rice", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "onion": { "quantity": "2", "cost": 10 },
+        "tomato": { "quantity": "2", "cost": 10 },
+        "parboiled rice": { "quantity": "250g", "cost": 20 },
+        "mustard oil": { "quantity": "50ml", "cost": 15 }
+        },
+    "total_cost": 79
+    },
+    {
+    "user_profile": {
+      "region": "West India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Bajra Roti", "cost": 55, "ingredients": ["bajra flour", "fenugreek leaves"] },
+      { "name": "Mixed Vegetable Sabzi", "cost": 50, "ingredients": ["cauliflower", "carrot", "peas"] }
+    ],
+    "grocery_list": {
+      "bajra flour": { "quantity": "250g", "cost": 20 },
+      "fenugreek leaves": { "quantity": "50g", "cost": 10 },
+      "cauliflower": { "quantity": "1", "cost": 25 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "peas": { "quantity": "100g", "cost": 15 }
+    },
+    "total_cost": 80
+    },
+    {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Fish Curry", "cost": 60, "ingredients": ["fish", "mustard seeds", "tomato"] },
+      { "name": "Steamed Rice", "cost": 45, "ingredients": ["rice", "water"] }
+    ],
+    "grocery_list": {
+      "fish": { "quantity": "200g", "cost": 50 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "rice": { "quantity": "250g", "cost": 18 }
+    },
+    "total_cost": 83
+    },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Curry", "cost": 70, "ingredients": ["egg", "onion", "tomato"] },
+      { "name": "Parboiled Rice", "cost": 60, "ingredients": ["parboiled rice", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "parboiled rice": { "quantity": "250g", "cost": 20 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 }
+    },
+    "total_cost": 76
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Bajra Khichdi", "cost": 55, "ingredients": ["bajra", "moong dal", "cumin"] },
+      { "name": "Karela Stir Fry", "cost": 40, "ingredients": ["bitter gourd", "onion", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "bajra": { "quantity": "200g", "cost": 18 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "bitter gourd": { "quantity": "2", "cost": 20 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 }
+    },
+    "total_cost": 68
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 140
+    },
+    "meal_plan": [
+      { "name": "Drumstick Sambar", "cost": 65, "ingredients": ["drumstick", "toor dal", "tamarind"] },
+      { "name": "Ragi Mudde", "cost": 60, "ingredients": ["ragi flour", "water", "ghee"] }
+    ],
+    "grocery_list": {
+      "drumstick": { "quantity": "2", "cost": 20 },
+      "toor dal": { "quantity": "150g", "cost": 20 },
+      "tamarind": { "quantity": "20g", "cost": 5 },
+      "ragi flour": { "quantity": "200g", "cost": 18 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 78
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Missi Roti", "cost": 50, "ingredients": ["besan", "wheat flour", "onion"] },
+      { "name": "Bottle Gourd Curry", "cost": 45, "ingredients": ["bottle gourd", "tomato", "cumin"] }
+    ],
+    "grocery_list": {
+      "besan": { "quantity": "150g", "cost": 12 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "bottle gourd": { "quantity": "1", "cost": 20 },
+      "tomato": { "quantity": "1", "cost": 5 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Curry", "cost": 55, "ingredients": ["pumpkin", "mustard oil", "green chili"] },
+      { "name": "Sticky Rice", "cost": 50, "ingredients": ["sticky rice", "salt"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "green chili": { "quantity": "3", "cost": 3 },
+      "sticky rice": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 55
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Soybean Curry", "cost": 70, "ingredients": ["soybean", "onion", "garlic"] },
+      { "name": "Jowar Roti", "cost": 60, "ingredients": ["jowar flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "soybean": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "jowar flour": { "quantity": "250g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Kollu Rasam", "cost": 50, "ingredients": ["horse gram", "tamarind", "pepper"] },
+      { "name": "Steamed Idli", "cost": 45, "ingredients": ["idli rice", "urad dal", "fenugreek"] }
+    ],
+    "grocery_list": {
+      "horse gram": { "quantity": "150g", "cost": 15 },
+      "tamarind": { "quantity": "20g", "cost": 5 },
+      "pepper": { "quantity": "10g", "cost": 5 },
+      "idli rice": { "quantity": "200g", "cost": 20 },
+      "urad dal": { "quantity": "100g", "cost": 15 },
+      "fenugreek": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 65
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Aloo Methi", "cost": 60, "ingredients": ["potato", "methi", "garlic"] },
+      { "name": "Multigrain Roti", "cost": 55, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "potato": { "quantity": "2", "cost": 10 },
+      "methi": { "quantity": "100g", "cost": 15 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 65
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Moong Dal", "cost": 55, "ingredients": ["pumpkin", "moong dal", "turmeric"] },
+      { "name": "Steamed Brown Rice", "cost": 50, "ingredients": ["brown rice", "water"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "turmeric": { "quantity": "10g", "cost": 5 },
+      "brown rice": { "quantity": "250g", "cost": 20 }
+    },
+    "total_cost": 60
+    },
+    {
+    "user_profile": {
+      "region": "North India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    }, 
+    "meal_plan": [
+      { "name": "Aloo Methi", "cost": 60, "ingredients": ["potato", "methi", "garlic"] },
+      { "name": "Multigrain Roti", "cost": 55, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "potato": { "quantity": "2", "cost": 10 },
+      "methi": { "quantity": "100g", "cost": 15 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 65
+    },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Moong Dal", "cost": 55, "ingredients": ["pumpkin", "moong dal", "cumin"] },
+      { "name": "Brown Rice Pulao", "cost": 50, "ingredients": ["brown rice", "carrot", "peas"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "brown rice": { "quantity": "200g", "cost": 20 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "peas": { "quantity": "100g", "cost": 15 }
+    },
+    "total_cost": 85
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Dosa", "cost": 70, "ingredients": ["egg", "dosa batter", "onion"] },
+      { "name": "Peanut Sundal", "cost": 60, "ingredients": ["peanuts", "curry leaves", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "dosa batter": { "quantity": "300g", "cost": 20 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "peanuts": { "quantity": "150g", "cost": 18 },
+      "curry leaves": { "quantity": "10g", "cost": 5 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 }
+    },
+    "total_cost": 77
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Bathua Paratha", "cost": 65, "ingredients": ["bathua", "wheat flour", "ghee"] },
+      { "name": "Boiled Egg Salad", "cost": 55, "ingredients": ["egg", "cucumber", "black pepper"] }
+    ],
+    "grocery_list": {
+      "bathua": { "quantity": "200g", "cost": 20 },
+      "wheat flour": { "quantity": "250g", "cost": 18 },
+      "ghee": { "quantity": "50ml", "cost": 15 },
+      "egg": { "quantity": "2", "cost": 12 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "black pepper": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Khandvi", "cost": 60, "ingredients": ["besan", "curd", "mustard seeds"] },
+      { "name": "Cabbage Stir Fry", "cost": 50, "ingredients": ["cabbage", "green chili", "cumin"] }
+    ],
+    "grocery_list": {
+      "besan": { "quantity": "200g", "cost": 15 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "green chili": { "quantity": "3", "cost": 5 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Black Rice Porridge", "cost": 65, "ingredients": ["black rice", "milk", "jaggery"] },
+      { "name": "Boiled Veg Curry", "cost": 55, "ingredients": ["pumpkin", "beans", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "black rice": { "quantity": "200g", "cost": 25 },
+      "milk": { "quantity": "250ml", "cost": 15 },
+      "jaggery": { "quantity": "50g", "cost": 10 },
+      "pumpkin": { "quantity": "200g", "cost": 15 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 }
+    },
+    "total_cost": 92
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Kambu Pongal", "cost": 55, "ingredients": ["pearl millet", "moong dal", "pepper"] },
+      { "name": "Cucumber Raita", "cost": 40, "ingredients": ["cucumber", "curd", "cumin"] }
+    ],
+    "grocery_list": {
+      "pearl millet": { "quantity": "200g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "pepper": { "quantity": "10g", "cost": 5 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 67
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Paneer Bhurji", "cost": 75, "ingredients": ["paneer", "onion", "tomato"] },
+      { "name": "Multigrain Roti", "cost": 60, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "paneer": { "quantity": "200g", "cost": 40 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 95
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Curry", "cost": 60, "ingredients": ["pumpkin", "mustard oil", "green chili"] },
+      { "name": "Boiled Egg Salad", "cost": 50, "ingredients": ["egg", "cucumber", "black pepper"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "green chili": { "quantity": "3", "cost": 5 },
+      "egg": { "quantity": "2", "cost": 12 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "black pepper": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 64
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Vegetable Upma", "cost": 55, "ingredients": ["semolina", "carrot", "peas"] },
+      { "name": "Curd Rice", "cost": 50, "ingredients": ["rice", "curd", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "semolina": { "quantity": "200g", "cost": 20 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "peas": { "quantity": "100g", "cost": 15 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "mustard seeds": { "quantity": "50g", "cost": 5 }
+    },
+    "total_cost": 80
+    },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Curry", "cost": 60, "ingredients": ["pumpkin", "mustard oil", "green chili"] },
+      { "name": "Boiled Egg Salad", "cost": 50, "ingredients": ["egg", "cucumber", "black pepper"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "green chili": { "quantity": "3", "cost": 5 },
+      "egg": { "quantity": "2", "cost": 12 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "black pepper": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 64
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Oats Idli", "cost": 55, "ingredients": ["oats", "curd", "carrot"] },
+      { "name": "Mint Chutney", "cost": 45, "ingredients": ["mint", "coriander", "green chili"] }
+    ],
+    "grocery_list": {
+      "oats": { "quantity": "200g", "cost": 20 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "carrot": { "quantity": "1", "cost": 5 },
+      "mint": { "quantity": "50g", "cost": 10 },
+      "coriander": { "quantity": "50g", "cost": 10 },
+      "green chili": { "quantity": "2", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Methi Dal", "cost": 50, "ingredients": ["methi", "moong dal", "garlic"] },
+      { "name": "Barley Roti", "cost": 45, "ingredients": ["barley flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "methi": { "quantity": "100g", "cost": 15 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "barley flour": { "quantity": "200g", "cost": 15 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 52
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Poha with Peanuts", "cost": 60, "ingredients": ["poha", "peanuts", "mustard seeds"] },
+      { "name": "Banana Smoothie", "cost": 55, "ingredients": ["banana", "milk", "honey"] }
+    ],
+    "grocery_list": {
+      "poha": { "quantity": "200g", "cost": 15 },
+      "peanuts": { "quantity": "100g", "cost": 12 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "banana": { "quantity": "2", "cost": 10 },
+      "milk": { "quantity": "250ml", "cost": 15 },
+      "honey": { "quantity": "20ml", "cost": 10 }
+    },
+    "total_cost": 67
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Boiled Pork with Bamboo Shoot", "cost": 80, "ingredients": ["pork", "bamboo shoot", "ginger"] },
+      { "name": "Sticky Rice", "cost": 60, "ingredients": ["sticky rice", "salt"] }
+    ],
+    "grocery_list": {
+      "pork": { "quantity": "200g", "cost": 40 },
+      "bamboo shoot": { "quantity": "150g", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "sticky rice": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 85
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Ragi Roti", "cost": 60, "ingredients": ["ragi flour", "onion", "green chili"] },
+      { "name": "Coconut Chutney", "cost": 50, "ingredients": ["coconut", "ginger", "curry leaves"] }
+    ],
+    "grocery_list": {
+      "ragi flour": { "quantity": "250g", "cost": 20 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 55
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Lauki Soup", "cost": 50, "ingredients": ["bottle gourd", "cumin", "black pepper"] },
+      { "name": "Multigrain Roti", "cost": 50, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "bottle gourd": { "quantity": "1", "cost": 20 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "black pepper": { "quantity": "10g", "cost": 5 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 65
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Karela Bhaji", "cost": 50, "ingredients": ["bitter gourd", "onion", "mustard seeds"] },
+      { "name": "Bajra Roti", "cost": 45, "ingredients": ["bajra flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "bitter gourd": { "quantity": "2", "cost": 20 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "bajra flour": { "quantity": "200g", "cost": 15 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 47
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Chana Ghugni", "cost": 60, "ingredients": ["black chickpeas", "onion", "mustard oil"] },
+      { "name": "Flattened Rice with Banana", "cost": 55, "ingredients": ["flattened rice", "banana", "milk"] }
+    ],
+    "grocery_list": {
+      "black chickpeas": { "quantity": "200g", "cost": 20 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "flattened rice": { "quantity": "200g", "cost": 15 },
+      "banana": { "quantity": "2", "cost": 10 },
+      "milk": { "quantity": "250ml", "cost": 15 }
+    },
+    "total_cost": 82
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Curry", "cost": 70, "ingredients": ["egg", "onion", "tomato"] },
+      { "name": "Ragi Mudde", "cost": 60, "ingredients": ["ragi flour", "water", "ghee"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "ragi flour": { "quantity": "250g", "cost": 20 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 79
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Bathua Saag", "cost": 60, "ingredients": ["bathua", "garlic", "mustard oil"] },
+      { "name": "Multigrain Roti", "cost": 55, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "bathua": { "quantity": "200g", "cost": 20 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 72
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Cabbage Thepla", "cost": 55, "ingredients": ["cabbage", "wheat flour", "curd"] },
+      { "name": "Sprouted Moong Salad", "cost": 50, "ingredients": ["sprouted moong", "tomato", "lemon"] }
+    ],
+    "grocery_list": {
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "wheat flour": { "quantity": "250g", "cost": 18 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "sprouted moong": { "quantity": "150g", "cost": 20 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "lemon": { "quantity": "1", "cost": 5 }
+    },
+    "total_cost": 85
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Boiled Red Rice", "cost": 50, "ingredients": ["red rice", "salt"] },
+      { "name": "Vegetable Stew", "cost": 45, "ingredients": ["pumpkin", "beans", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "red rice": { "quantity": "200g", "cost": 25 },
+      "salt": { "quantity": "10g", "cost": 2 },
+      "pumpkin": { "quantity": "200g", "cost": 15 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 }
+    },
+    "total_cost": 69
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 140
+    },
+    "meal_plan": [
+      { "name": "Drumstick Sambar", "cost": 65, "ingredients": ["drumstick", "toor dal", "tamarind"] },
+      { "name": "Ragi Dosa", "cost": 60, "ingredients": ["ragi flour", "onion", "green chili"] }
+    ],
+    "grocery_list": {
+      "drumstick": { "quantity": "2", "cost": 20 },
+      "toor dal": { "quantity": "150g", "cost": 20 },
+      "tamarind": { "quantity": "20g", "cost": 5 },
+      "ragi flour": { "quantity": "200g", "cost": 18 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 }
+    },
+    "total_cost": 73
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Soybean Curry", "cost": 70, "ingredients": ["soybean", "onion", "garlic"] },
+      { "name": "Multigrain Roti", "cost": 60, "ingredients": ["wheat flour", "barley flour", "soy flour"] }
+    ],
+    "grocery_list": {
+      "soybean": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "wheat flour": { "quantity": "200g", "cost": 15 },
+      "barley flour": { "quantity": "100g", "cost": 10 },
+      "soy flour": { "quantity": "100g", "cost": 10 }
+    },
+    "total_cost": 75
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Moong Dal", "cost": 60, "ingredients": ["pumpkin", "moong dal", "cumin"] },
+      { "name": "Brown Rice Khichdi", "cost": 50, "ingredients": ["brown rice", "turmeric", "salt"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "brown rice": { "quantity": "200g", "cost": 20 },
+      "turmeric": { "quantity": "10g", "cost": 5 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 67
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Khandvi", "cost": 60, "ingredients": ["besan", "curd", "mustard seeds"] },
+      { "name": "Cabbage Stir Fry", "cost": 50, "ingredients": ["cabbage", "green chili", "cumin"] }
+    ],
+    "grocery_list": {
+      "besan": { "quantity": "200g", "cost": 15 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "green chili": { "quantity": "3", "cost": 5 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Black Rice Porridge", "cost": 65, "ingredients": ["black rice", "milk", "jaggery"] },
+      { "name": "Boiled Veg Curry", "cost": 55, "ingredients": ["pumpkin", "beans", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "black rice": { "quantity": "200g", "cost": 25 },
+      "milk": { "quantity": "250ml", "cost": 15 },
+      "jaggery": { "quantity": "50g", "cost": 10 },
+      "pumpkin": { "quantity": "200g", "cost": 15 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 }
+    },
+    "total_cost": 92
+    },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Oats Pongal", "cost": 60, "ingredients": ["oats", "moong dal", "pepper"] },
+      { "name": "Cucumber Raita", "cost": 50, "ingredients": ["cucumber", "curd", "cumin"] }
+    ],
+    "grocery_list": {
+      "oats": { "quantity": "200g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "pepper": { "quantity": "10g", "cost": 5 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 67
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "muscle gain",
+      "health_conditions": ["low iron"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Rajma Masala", "cost": 75, "ingredients": ["rajma", "onion", "tomato"] },
+      { "name": "Jeera Rice", "cost": 60, "ingredients": ["rice", "cumin", "ghee"] }
+    ],
+    "grocery_list": {
+      "rajma": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 83
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Lauki Chana Dal", "cost": 50, "ingredients": ["bottle gourd", "chana dal", "cumin"] },
+      { "name": "Brown Rice Khichdi", "cost": 45, "ingredients": ["brown rice", "moong dal", "turmeric"] }
+    ],
+    "grocery_list": {
+      "bottle gourd": { "quantity": "1", "cost": 20 },
+      "chana dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "brown rice": { "quantity": "200g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "turmeric": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "West India",
+      "goal": "energy boost",
+      "health_conditions": ["thyroid"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Methi Thepla", "cost": 65, "ingredients": ["methi", "wheat flour", "curd"] },
+      { "name": "Sprouted Moong Salad", "cost": 55, "ingredients": ["sprouted moong", "tomato", "lemon"] }
+    ],
+    "grocery_list": {
+      "methi": { "quantity": "100g", "cost": 15 },
+      "wheat flour": { "quantity": "300g", "cost": 25 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "sprouted moong": { "quantity": "150g", "cost": 20 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "lemon": { "quantity": "1", "cost": 5 }
+    },
+    "total_cost": 87
+  },
+  {
+    "user_profile": {
+      "region": "Northeast India",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Red Rice with Boiled Vegetables", "cost": 55, "ingredients": ["red rice", "beans", "carrot"] },
+      { "name": "Fermented Bamboo Shoot Soup", "cost": 50, "ingredients": ["bamboo shoot", "ginger", "green chili"] }
+    ],
+    "grocery_list": {
+      "red rice": { "quantity": "200g", "cost": 25 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "carrot": { "quantity": "2", "cost": 10 },
+      "bamboo shoot": { "quantity": "150g", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "green chili": { "quantity": "5", "cost": 5 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "South India",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Ragi Dosa", "cost": 60, "ingredients": ["ragi flour", "onion", "green chili"] },
+      { "name": "Coconut Chutney", "cost": 40, "ingredients": ["coconut", "ginger", "curry leaves"] }
+    ],
+    "grocery_list": {
+      "ragi flour": { "quantity": "250g", "cost": 20 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "green chili": { "quantity": "5", "cost": 5 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 60
+  },
+  {
+    "user_profile": {
+      "region": "North India",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 140
+    },
+    "meal_plan": [
+      { "name": "Rajma Masala", "cost": 70, "ingredients": ["rajma", "onion", "tomato"] },
+      { "name": "Jeera Rice", "cost": 60, "ingredients": ["rice", "cumin", "ghee"] }
+    ],
+    "grocery_list": {
+      "rajma": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "cumin": { "quantity": "20g", "cost": 5 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 83
+  },
+  {
+    "user_profile": {
+      "region": "East India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Curry", "cost": 70, "ingredients": ["egg", "onion", "tomato"] },
+      { "name": "Parboiled Rice", "cost": 60, "ingredients": ["parboiled rice", "mustard oil"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "parboiled rice": { "quantity": "250g", "cost": 20 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 }
+    },
+    "total_cost": 76
+  },
+  {
+        "user_profile": {
+        "region": "West India",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Karela Bhaji", "cost": 50, "ingredients": ["bitter gourd", "onion", "mustard seeds"] },
+        { "name": "Bajra Roti", "cost": 45, "ingredients": ["bajra flour", "water", "salt"] }
+        ],
+        "grocery_list": {
+        "bitter gourd": { "quantity": "2", "cost": 20 },
+        "onion": { "quantity": "1", "cost": 5 },
+        "mustard seeds": { "quantity": "20g", "cost": 5 },
+        "bajra flour": { "quantity": "200g", "cost": 15 },
+        "salt": { "quantity": "10g", "cost": 2 }
+        },
+        "total_cost": 47
+  },
+  {
+        "user_profile": {
+        "region": "Northeast India",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Black Rice Porridge", "cost": 65, "ingredients": ["black rice", "milk", "jaggery"] },
+        { "name": "Boiled Veg Curry", "cost": 55, "ingredients": ["pumpkin", "beans", "mustard oil"] }
+        ],
+        "grocery_list": {
+        "black rice": { "quantity": "200g", "cost": 25 },
+        "milk": { "quantity": "250ml", "cost": 15 },
+        "jaggery": { "quantity": "50g", "cost": 10 },
+        "pumpkin": { "quantity": "200g", "cost": 15 },
+        "beans": { "quantity": "100g", "cost": 15 },
+        "mustard oil": { "quantity": "50ml", "cost": 12 }
+        },
+        "total_cost": 92
+  },
+  {
+    "user_profile": {
+    "region": "South India",
+    "goal": "thyroid balance",
+    "health_conditions": ["hypothyroidism"],
+    "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Ragi Dosa", "cost": 60, "ingredients": ["ragi flour", "onion", "green chili"] },
+      { "name": "Coconut Chutney", "cost": 40, "ingredients": ["coconut", "ginger", "curry leaves"] }
+    ],
+    "grocery_list": {
+    "ragi flour": { "quantity": "250g", "cost": 20 },
+    "onion": { "quantity": "2", "cost": 10 },
+    "green chili": { "quantity": "5", "cost": 5 },
+    "coconut": { "quantity": "1", "cost": 15 },
+    "ginger": { "quantity": "20g", "cost": 5 },
+    "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 60
+    },
+    {
+        "user_profile": {
+        "region": "North India",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 140
+        },
+        "meal_plan": [
+        { "name": "Rajma Masala", "cost": 70, "ingredients": ["rajma", "onion", "tomato"] },
+        { "name": "Jeera Rice", "cost": 60, "ingredients": ["rice", "cumin", "ghee"] }
+        ],
+        "grocery_list": {
+        "rajma": { "quantity": "200g", "cost": 25 },
+        "onion": { "quantity": "2", "cost": 10 },
+        "tomato": { "quantity": "2", "cost": 10 },
+        "rice": { "quantity": "250g", "cost": 18 },
+        "cumin": { "quantity": "20g", "cost": 5 },
+        "ghee": { "quantity": "50ml", "cost": 15 }
+        },
+        "total_cost": 83
+    },
+    {
+        "user_profile": {
+        "region": "East India",
+        "goal": "muscle gain",
+        "health_conditions": ["low protein"],
+        "budget": 150
+        },
+        "meal_plan": [
+        { "name": "Egg Curry", "cost": 70, "ingredients": ["egg", "onion", "tomato"] },
+        { "name": "Parboiled Rice", "cost": 60, "ingredients": ["parboiled rice", "mustard oil"] }
+        ],
+        "grocery_list": {
+        "egg": { "quantity": "4", "cost": 24 },
+        "onion": { "quantity": "2", "cost": 10 },
+        "tomato": { "quantity": "2", "cost": 10 },
+        "parboiled rice": { "quantity": "250g", "cost": 20 },
+        "mustard oil": { "quantity": "50ml", "cost": 12 }
+        },
+        "total_cost": 76
+    },
+    {
+        "user_profile": {
+        "region": "North India",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Methi Dal", "cost": 50, "ingredients": ["methi", "moong dal", "garlic"] },
+        { "name": "Barley Roti", "cost": 45, "ingredients": ["barley flour", "water", "salt"] }
+        ],
+        "grocery_list": {
+        "methi": { "quantity": "100g", "cost": 15 },
+        "moong dal": { "quantity": "150g", "cost": 15 },
+        "garlic": { "quantity": "20g", "cost": 5 },
+        "barley flour": { "quantity": "200g", "cost": 15 },
+        "salt": { "quantity": "10g", "cost": 2 }
+        },
+        "total_cost": 52
+    },
+    {
+        "user_profile": {
+        "region": "South India",
+        "goal": "fat loss",
+        "health_conditions": ["PCOS"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Oats Idli", "cost": 55, "ingredients": ["oats", "curd", "carrot"] },
+        { "name": "Mint Chutney", "cost": 45, "ingredients": ["mint", "coriander", "green chili"] }
+        ],
+        "grocery_list": {
+        "oats": { "quantity": "200g", "cost": 20 },
+        "curd": { "quantity": "200ml", "cost": 12 },
+        "carrot": { "quantity": "1", "cost": 5 },
+        "mint": { "quantity": "50g", "cost": 10 },
+        "coriander": { "quantity": "50g", "cost": 10 },
+        "green chili": { "quantity": "2", "cost": 5 }
+        },
+        "total_cost": 62
+    },
+  {
+    "user_profile": {
+      "region": "Central India",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 140
+    },
+    "meal_plan": [
+      { "name": "Soybean Bharta", "cost": 70, "ingredients": ["soybean", "onion", "garlic"] },
+      { "name": "Jowar Roti", "cost": 60, "ingredients": ["jowar flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "soybean": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "jowar flour": { "quantity": "250g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Himalayan Region",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Buckwheat Pancakes", "cost": 65, "ingredients": ["buckwheat flour", "milk", "banana"] },
+      { "name": "Spinach Soup", "cost": 55, "ingredients": ["spinach", "garlic", "black pepper"] }
+    ],
+    "grocery_list": {
+      "buckwheat flour": { "quantity": "200g", "cost": 20 },
+      "milk": { "quantity": "250ml", "cost": 15 },
+      "banana": { "quantity": "1", "cost": 5 },
+      "spinach": { "quantity": "300g", "cost": 25 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "black pepper": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 75
+  },
+  {
+    "user_profile": {
+      "region": "Coastal Karnataka",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Neer Dosa", "cost": 60, "ingredients": ["rice flour", "coconut", "salt"] },
+      { "name": "Ridge Gourd Curry", "cost": 50, "ingredients": ["ridge gourd", "mustard seeds", "curry leaves"] }
+    ],
+    "grocery_list": {
+      "rice flour": { "quantity": "200g", "cost": 15 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "salt": { "quantity": "10g", "cost": 2 },
+      "ridge gourd": { "quantity": "1", "cost": 20 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Rajasthan",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Bajra Khichdi", "cost": 55, "ingredients": ["bajra", "moong dal", "cumin"] },
+      { "name": "Kachumber Salad", "cost": 45, "ingredients": ["cucumber", "tomato", "lemon"] }
+    ],
+    "grocery_list": {
+      "bajra": { "quantity": "200g", "cost": 18 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "tomato": { "quantity": "1", "cost": 5 },
+      "lemon": { "quantity": "1", "cost": 5 }
+    },
+    "total_cost": 58
+  },
+  {
+    "user_profile": {
+      "region": "Punjab",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Tinda Sabzi", "cost": 50, "ingredients": ["tinda", "onion", "cumin"] },
+      { "name": "Missi Roti", "cost": 45, "ingredients": ["besan", "wheat flour", "onion"] }
+    ],
+    "grocery_list": {
+      "tinda": { "quantity": "2", "cost": 20 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "besan": { "quantity": "150g", "cost": 12 },
+      "wheat flour": { "quantity": "200g", "cost": 15 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Odisha",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Dalma", "cost": 65, "ingredients": ["toor dal", "pumpkin", "raw banana"] },
+      { "name": "Chuda Kadali", "cost": 55, "ingredients": ["flattened rice", "banana", "jaggery"] }
+    ],
+    "grocery_list": {
+      "toor dal": { "quantity": "150g", "cost": 20 },
+      "pumpkin": { "quantity": "200g", "cost": 15 },
+      "raw banana": { "quantity": "1", "cost": 10 },
+      "flattened rice": { "quantity": "200g", "cost": 15 },
+      "banana": { "quantity": "1", "cost": 5 },
+      "jaggery": { "quantity": "50g", "cost": 10 }
+    },
+    "total_cost": 75
+  },
+  {
+    "user_profile": {
+      "region": "Kerala",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Egg Roast", "cost": 75, "ingredients": ["egg", "onion", "coconut oil"] },
+      { "name": "Appam", "cost": 60, "ingredients": ["rice flour", "coconut milk", "yeast"] }
+    ],
+    "grocery_list": {
+      "egg": { "quantity": "4", "cost": 24 },
+      "onion": { "quantity": "2", "cost": 10 },
+      "coconut oil": { "quantity": "50ml", "cost": 15 },
+      "rice flour": { "quantity": "200g", "cost": 15 },
+      "coconut milk": { "quantity": "200ml", "cost": 15 },
+      "yeast": { "quantity": "5g", "cost": 5 }
+    },
+    "total_cost": 84
+  },
+  {
+    "user_profile": {
+      "region": "Maharashtra",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Thalipeeth", "cost": 60, "ingredients": ["multigrain flour", "onion", "coriander"] },
+      { "name": "Coconut Chutney", "cost": 50, "ingredients": ["coconut", "green chili", "curry leaves"] }
+    ],
+    "grocery_list": {
+      "multigrain flour": { "quantity": "250g", "cost": 20 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "coriander": { "quantity": "50g", "cost": 10 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "curry leaves": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 60
+  },
+  {
+    "user_profile": {
+      "region": "Andhra Pradesh",
+      "goal": "fat loss",
+        "health_conditions": ["PCOS"],
+        "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Pesarattu", "cost": 55, "ingredients": ["green gram", "ginger", "green chili"] },
+      { "name": "Tomato Chutney", "cost": 45, "ingredients": ["tomato", "onion", "mustard seeds"] }
+    ],  
+    "grocery_list": {
+      "green gram": { "quantity": "200g", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 }
+    },
+    "total_cost": 60
+  },
+    {
+        "user_profile": {
+        "region": "Gujarat",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Bajra Thepla", "cost": 50, "ingredients": ["bajra flour", "fenugreek leaves", "curd"] },
+        { "name": "Vegetable Salad", "cost": 45, "ingredients": ["cucumber", "carrot", "lettuce"] }
+        ],
+        "grocery_list": {
+        "bajra flour": { "quantity": "200g", "cost": 15 },
+        "fenugreek leaves": { "quantity": "50g", "cost": 10 },
+        "curd": { "quantity": "200ml", "cost": 12 },
+        "cucumber": { "quantity": "1", "cost": 10 },
+        "carrot": { "quantity": "1", "cost": 5 },
+        "lettuce": { "quantity": "100g", "cost": 8 }
+        },
+        "total_cost": 60
+    },
+    {
+        "user_profile": {
+        "region": "Tamil Nadu",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Millet Pongal", "cost": 65, "ingredients": ["millet", "moong dal", "pepper"] },
+        { "name": "Beetroot Poriyal", "cost": 55, "ingredients": ["beetroot", "coconut", "mustard seeds"] }
+        ],
+        "grocery_list": {
+        "millet": { "quantity": "200g", "cost": 20 },
+        "moong dal": { "quantity": "150g", "cost": 15 },
+        "pepper": { "quantity": "10g", "cost": 5 },
+        "beetroot": { "quantity": "200g", "cost": 15 },
+        "coconut": { "quantity": ".5", "cost": 8 },
+        "mustard seeds": { "quantity": "20g", "cost": 5 }
+        },  
+        "total_cost": 68
+    },
+    {   
+        "user_profile": {
+        "region": "Himachal Pradesh",
+        "goal": "thyroid balance",
+        "health_conditions": ["hypothyroidism"],
+        "budget": 120
+        },
+        "meal_plan": [
+        { "name": "Buckwheat Roti", "cost": 60, "ingredients": ["buckwheat flour", "water", "salt"] },
+        { "name": "Palak Paneer", "cost": 50, "ingredients": ["spinach", "paneer", "garlic"] }
+        ],
+        "grocery_list": {
+        "buckwheat flour": { "quantity": "200g", "cost": 20 },
+        "water": { "quantity": "as needed", "cost": 0 },
+        "salt": { "quantity": "10g", "cost": 2 },
+        "spinach": { "quantity": "300g", "cost": 25 },
+        "paneer": { "quantity": "100g", "cost": 20 },
+        "garlic": { "quantity": "20g", "cost": 5 }
+        },
+        "total_cost": 72
+    },
+    {
+        "user_profile": {
+        "region": "West Bengal",
+        "goal": "fat loss",
+        "health_conditions": ["PCOS"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Chickpea Curry", "cost": 55, "ingredients": ["chickpeas", "onion", "tomato"] },
+        { "name": "Cauliflower Rice", "cost": 45, "ingredients": ["cauliflower", "cumin", "cilantro"] }
+        ],
+        "grocery_list": {
+        "chickpeas": { "quantity": "200g", "cost": 20 },
+        "onion": { "quantity": "1", "cost": 5 },
+        "tomato": { "quantity": "1", "cost": 5 },
+        "cauliflower": { "quantity": ".5", "cost": 15 },
+        "cumin": { "quantity": "10g", "cost": 5 },
+        "cilantro": { "quantity": "20g",	"cost": 5 }
+        },
+       	"total_cost": 55
+    },
+    {
+        "user_profile": {
+        "region": "Assam",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Black Rice Porridge", "cost": 65, "ingredients": ["black rice", "milk", "jaggery"] },
+        { "name": "Boiled Veg Curry", "cost": 55, "ingredients": ["pumpkin", "beans", "mustard oil"] }
+        ],
+        "grocery_list": {
+        "black rice": { "quantity": "200g", "cost": 25 },
+        "milk": { "quantity": "250ml", "cost": 15 },
+        "jaggery": { "quantity": "50g", "cost": 10 },
+        "pumpkin": { "quantity": "200g", "cost": 15 },
+        "beans": { "quantity": "100g", "cost": 15 },
+        "mustard oil": { "quantity": "50ml", "cost": 12 }
+        },
+       	"total_cost": 92
+    },
+    {
+        "user_profile": {
+        "region": "Goa",
+        "goal": "thyroid balance",
+        "health_conditions": ["hypothyroidism"],
+        "budget": 120
+        },
+        "meal_plan": [
+        { "name": "Fish Curry", "cost": 60, "ingredients": ["fish", "coconut milk", "tamarind"] },
+        { "name": "Red Rice", "cost": 50, "ingredients": ["red rice", "mustard seeds", "curry leaves"] }
+        ],
+        "grocery_list": {
+        "fish": { "quantity": "200g", "cost": 50 },
+        "coconut milk": { "quantity": "200ml", "cost": 15 },
+        "tamarind": { "quantity": "20g", "cost": 5 },
+        "red rice": { "quantity": "250g", "cost": 20 },
+        "mustard seeds": { "quantity": "20g",	"cost": 5 },
+        "curry leaves": { "quantity": "10g",	"cost": 5 }
+        },
+       	"total_cost": 100
+    },
+    {
+        "user_profile": {
+        "region": "Madhya Pradesh",
+        "goal": "fat loss",
+        "health_conditions": ["high cholesterol"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Vegetable Upma", "cost": 55, "ingredients": ["semolina", "mixed vegetables", "mustard seeds"] },
+        { "name": "Buttermilk", "cost": 45, "ingredients": ["curd", "water", "cumin"] }
+        ],
+        "grocery_list": {
+        "semolina": { "quantity": "200g", "cost": 15 },
+        "mixed vegetables": { "quantity": "200g", "cost": 20 },
+        "mustard seeds": { "quantity": "10g",	"cost": 5 },
+        "curd": { "quantity": "200ml",	"cost": 12 },
+        "water": { "quantity": "as needed",	"cost": 0 },
+        "cumin": { "quantity": "10g",	"cost": 5 }
+        },
+       	"total_cost": 57
+    },
+    {
+        "user_profile": {
+        "region": "Chhattisgarh",
+        "goal": "muscle gain",
+        "health_conditions": ["low protein"],
+        "budget": 140
+        },
+        "meal_plan": [
+        { "name": "Chana Masala", "cost": 70, "ingredients": ["chickpeas", "onion", "tomato"] },
+        { "name": "Rice", "cost": 60, "ingredients": ["rice", "ghee", "cumin"] }
+        ],
+        "grocery_list": {
+        "chickpeas": { "quantity": "200g",	"cost": 20 },
+        "onion": { "quantity": "2",	"cost": 10 },
+        "tomato": { "quantity": "2",	"cost": 10 },
+        "rice": { "quantity": "250g",	"cost": 18 },
+        "ghee": { "quantity": "50ml",	"cost": 15 },
+        "cumin": { "quantity": "20g",	"cost": 5 }
+        },
+       	"total_cost": 78
+    },
+    {
+        "user_profile": {
+        "region": "Jharkhand",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Lauki Chana Dal", "cost": 50, "ingredients": ["bottle gourd", "chana dal", "cumin"] },
+        { "name": "Brown Rice Khichdi", "cost": 45, "ingredients": ["brown rice", "moong dal", "turmeric"] }
+        ],
+        "grocery_list": {
+        "bottle gourd": { "quantity": "1",	"cost": 20 },
+        "chana dal": { "quantity": "150g",	"cost": 15 },
+        "cumin": { "quantity": "20g",	"cost": 5 },
+        "brown rice": { "quantity": "200g",	"cost": 20 },
+        "moong dal": { "quantity": "150g",	"cost": 15 },
+        "turmeric": { "quantity": "10g",	"cost": 5 }
+        },
+       	"total_cost": 80
+    },
+    {
+        "user_profile": {
+        "region": "Haryana",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Palak Chole", "cost": 65, "ingredients": ["spinach", "chickpeas", "garlic"] },
+        { "name": "Jeera Rice", "cost": 55, "ingredients": ["rice", "cumin", "ghee"] }
+        ],
+        "grocery_list": {
+        "spinach": { "quantity": "300g",	"cost": 25 },
+        "chickpeas": { "quantity": "200g",	"cost": 20 },
+        "garlic": { "quantity": "20g",	"cost": 5 },
+        "rice": { "quantity": "250g",	"cost": 18 },
+        "cumin": { "quantity": "20g",	"cost": 5 },
+        "ghee": { "quantity": "50ml",	"cost": 15 }
+        },
+       	"total_cost": 88
+    },
+    {
+        "user_profile": {
+        "region": "Uttar Pradesh",
+        "goal": "muscle gain",
+        "health_conditions": ["low protein"],
+        "budget": 140
+        },
+        "meal_plan": [
+        { "name": "Paneer Bhurji", "cost": 70, "ingredients": ["paneer", "onion", "tomato"] },
+        { "name": "Whole Wheat Roti", "cost": 60, "ingredients": ["whole wheat flour", "water", "salt"] }
+        ],
+        "grocery_list": {
+        "paneer": { "quantity": "100g",	"cost": 20 },
+        "onion": { "quantity": "2",	"cost": 10 },
+        "tomato": { "quantity": "2",	"cost": 10 },
+        "whole wheat flour": { "quantity": "250g",	"cost": 15 },
+        "water": { "quantity": "as needed",	"cost": 0 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+       	"total_cost": 57
+    },
+    {
+        "user_profile": {
+        "region": "Bihar",
+        "goal": "fat loss",
+        "health_conditions": ["high cholesterol"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Vegetable Sattu Paratha", "cost": 55, "ingredients": ["sattu flour", "mixed vegetables", "spices"] },
+        { "name": "Curd", "cost": 45, "ingredients": ["curd", "cumin", "salt"] }
+        ],
+        "grocery_list": {
+        "sattu flour": { "quantity": "200g",	"cost": 20 },
+        "mixed vegetables": { "quantity": "200g",	"cost": 20 },
+        "spices": { "quantity": "10g",	"cost": 5 },
+        "curd": { "quantity": "200ml",	"cost": 12 },
+        "cumin": { "quantity": "10g",	"cost": 5 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+       	"total_cost": 64
+    },
+  {
+    "user_profile": {
+      "region": "Andaman & Nicobar Islands",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Banana Coconut Curry", "cost": 65, "ingredients": ["banana", "coconut milk", "mustard seeds"] },
+      { "name": "Red Rice", "cost": 55, "ingredients": ["red rice", "salt"] }
+    ],
+    "grocery_list": {
+      "banana": { "quantity": "2", "cost": 10 },
+      "coconut milk": { "quantity": "200ml", "cost": 15 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "red rice": { "quantity": "250g", "cost": 25 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 57
+  },
+  {
+    "user_profile": {
+      "region": "Chhattisgarh",
+      "goal": "fat loss",
+      "health_conditions": ["PCOS"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Kodo Millet Khichdi", "cost": 60, "ingredients": ["kodo millet", "moong dal", "cumin"] },
+      { "name": "Cucumber Mint Raita", "cost": 45, "ingredients": ["cucumber", "curd", "mint"] }
+    ],
+    "grocery_list": {
+      "kodo millet": { "quantity": "200g", "cost": 20 },
+      "moong dal": { "quantity": "150g", "cost": 15 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "cucumber": { "quantity": "1", "cost": 10 },
+      "curd": { "quantity": "200ml", "cost": 12 },
+      "mint": { "quantity": "50g", "cost": 10 }
+    },
+    "total_cost": 72
+  },
+  {
+    "user_profile": {
+      "region": "Jharkhand",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Rugra Mushroom Curry", "cost": 65, "ingredients": ["rugra mushroom", "onion", "mustard oil"] },
+      { "name": "Rice Roti", "cost": 50, "ingredients": ["rice flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "rugra mushroom": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "rice flour": { "quantity": "200g", "cost": 15 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 59
+  },
+  {
+    "user_profile": {
+      "region": "Goa",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Fish Curry", "cost": 80, "ingredients": ["fish", "coconut", "tamarind"] },
+      { "name": "Rice Bhakri", "cost": 60, "ingredients": ["rice flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "fish": { "quantity": "200g", "cost": 40 },
+      "coconut": { "quantity": "1", "cost": 15 },
+      "tamarind": { "quantity": "20g", "cost": 5 },
+      "rice flour": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 80
+  },
+  {
+    "user_profile": {
+      "region": "Sikkim",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Buckwheat Noodles", "cost": 55, "ingredients": ["buckwheat flour", "carrot", "beans"] },
+      { "name": "Steamed Veg Soup", "cost": 45, "ingredients": ["cabbage", "ginger", "green chili"] }
+    ],
+    "grocery_list": {
+      "buckwheat flour": { "quantity": "200g", "cost": 20 },
+      "carrot": { "quantity": "1", "cost": 5 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 }
+    },
+    "total_cost": 70
+  },
+  {
+    "user_profile": {
+      "region": "Telangana",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Jonna Roti", "cost": 60, "ingredients": ["jowar flour", "water", "salt"] },
+      { "name": "Gongura Dal", "cost": 55, "ingredients": ["gongura leaves", "toor dal", "green chili"] }
+    ],
+    "grocery_list": {
+      "jowar flour": { "quantity": "250g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 },
+      "gongura leaves": { "quantity": "100g", "cost": 15 },
+      "toor dal": { "quantity": "150g", "cost": 20 },
+      "green chili": { "quantity": "2", "cost": 5 }
+    },
+    "total_cost": 62
+  },
+  {
+    "user_profile": {
+      "region": "Ladakh",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Thukpa", "cost": 60, "ingredients": ["noodles", "carrot", "cabbage"] },
+      { "name": "Buckwheat Flatbread", "cost": 45, "ingredients": ["buckwheat flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "noodles": { "quantity": "200g", "cost": 20 },
+      "carrot": { "quantity": "1", "cost": 5 },
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "buckwheat flour": { "quantity": "200g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 67
+  },
+  {
+    "user_profile": {
+      "region": "Nagaland",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Smoked Pork with Bamboo Shoot", "cost": 70, "ingredients": ["pork", "bamboo shoot", "ginger"] },
+      { "name": "Sticky Rice", "cost": 50, "ingredients": ["sticky rice", "salt"] }
+    ],
+    "grocery_list": {
+      "pork": { "quantity": "200g", "cost": 40 },
+      "bamboo shoot": { "quantity": "150g", "cost": 20 },
+      "ginger": { "quantity": "20g", "cost": 5 },
+      "sticky rice": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 85
+  },
+  {
+    "user_profile": {
+      "region": "Mizoram",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Bai with Pork", "cost": 75, "ingredients": ["pork", "leafy greens", "mustard oil"] },
+      { "name": "Boiled Rice", "cost": 60, "ingredients": ["rice", "salt"] }
+    ],
+    "grocery_list": {
+      "pork": { "quantity": "200g", "cost": 40 },
+      "leafy greens": { "quantity": "200g", "cost": 15 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 87
+  },
+    {
+        "user_profile": {
+        "region": "Tripura",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Mui Borok", "cost": 50, "ingredients": ["fish", "bamboo shoot", "mustard oil"] },
+        { "name": "Rice", "cost": 45, "ingredients": ["rice", "salt"] }
+        ],
+        "grocery_list": {
+        "fish": { "quantity": "200g", "cost": 40 },
+        "bamboo shoot": { "quantity": "150g", "cost": 20 },
+        "mustard oil": { "quantity": "50ml", "cost": 12 },
+        "rice": { "quantity": "250g", "cost": 18 },
+        "salt": { "quantity": "10g", "cost": 2 }
+        },
+        "total_cost": 92
+    },
+    {
+        "user_profile": {
+        "region": "Uttarakhand",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Mandua Roti", "cost": 60, "ingredients": ["finger millet flour", "water", "salt"] },
+        { "name": "Rajma Curry", "cost": 55, "ingredients": ["kidney beans", "onion", "tomato"] }
+        ],
+        "grocery_list": {
+        "finger millet flour": { "quantity": "250g", "cost": 20 },
+        "water": { "quantity": "as needed", "cost": 0 },
+        "salt": { "quantity": "10g", "cost": 2 },
+        "kidney beans": { "quantity": "150g",	"cost": 20 },
+        "onion": { "quantity": "1",	"cost": 5 },
+        "tomato": { "quantity": "1",	"cost": 5 }
+        },
+       	"total_cost": 52
+    },
+    {
+        "user_profile": {
+        "region": "Manipur",
+        "goal": "thyroid balance",
+        "health_conditions": ["hypothyroidism"],
+        "budget": 120
+        },
+        "meal_plan": [
+        { "name": "Eromba", "cost": 65, "ingredients": ["fermented fish", "potato", "chili"] },
+        { "name": "Rice", "cost": 50, "ingredients": ["rice", "salt"] }
+        ],
+        "grocery_list": {
+        "fermented fish": {	"quantity": "100g",	"cost": 30 },
+       	"potato": {	"quantity": ".5",	"cost": 10 },
+       	"chili": {	"quantity": "2",	"cost": 5 },
+       	"rice": {	"quantity": "250g",	"cost": 18 },
+       	"salt": {	"quantity": "10g",	"cost": 2 }
+        },
+       	"total_cost": 65
+    },
+    {
+        "user_profile": {
+        "region": "Arunachal Pradesh",
+        "goal": "fat loss",
+        "health_conditions": ["high cholesterol"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Thukpa", "cost": 60, "ingredients": ["noodles", "carrot", "cabbage"] },
+        { "name": "Buckwheat Flatbread", "cost": 45, "ingredients": ["buckwheat flour", "water", "salt"] }
+        ], 
+        "grocery_list": {
+        "noodles": { "quantity": "200g",	"cost": 20 },
+        "carrot": { "quantity": "1",	"cost": 5 },
+        "cabbage": { "quantity": "1",	"cost": 20 },
+        "buckwheat flour": { "quantity": "200g",	"cost": 20 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 67
+    },
+    {
+        "user_profile": {
+        "region": "Meghalaya",
+        "goal": "muscle gain",
+        "health_conditions": ["low protein"],
+        "budget": 150
+        },
+        "meal_plan": [
+        { "name": "Jadoh", "cost": 75, "ingredients": ["pork", "rice", "mustard oil"] },
+        { "name": "Steamed Vegetables", "cost": 60, "ingredients": ["mixed vegetables", "ginger", "salt"] }
+        ],
+        "grocery_list": {
+        "pork": { "quantity": "200g",	"cost": 40 },
+        "rice": { "quantity": "250g",	"cost": 18 },
+        "mustard oil": { "quantity": "50ml",	"cost": 12 },
+        "mixed vegetables": { "quantity": "200g",	"cost": 20 },
+        "ginger": { "quantity": "20g",	"cost": 5 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 97
+    },
+    {
+        "user_profile": {
+        "region": "Dadra and Nagar Haveli and Daman and Diu",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Vegetable Handvo", "cost": 50, "ingredients": ["mixed vegetables", "rice", "yogurt"] },
+        { "name": "Cucumber Salad", "cost": 45, "ingredients": ["cucumber", "tomato", "lemon"] }
+        ],
+        "grocery_list": {
+        "mixed vegetables": { "quantity": "200g",	"cost": 20 },
+        "rice": { "quantity": "200g",	"cost": 15 },
+        "yogurt": { "quantity": "200ml",	"cost": 12 },
+        "cucumber": { "quantity": "1",	"cost": 10 },
+        "tomato": { "quantity": "1",	"cost": 5 },
+        "lemon": { "quantity": "1",	"cost": 5 }
+        },
+               	"total_cost": 67
+    },
+    {
+        "user_profile": {
+        "region": "Puducherry",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Ragi Mudde", "cost": 60, "ingredients": ["finger millet flour", "water", "salt"] },
+        { "name": "Vegetable Sambar", "cost": 55, "ingredients": ["toor dal", "mixed vegetables", "tamarind"] }
+        ],
+        "grocery_list": {
+        "finger millet flour": { "quantity": "250g",	"cost": 20 },
+        "water": { "quantity": "as needed",	"cost": 0 },
+        "salt": { "quantity": "10g",	"cost": 2 },
+        "toor dal": { "quantity": "150g",	"cost": 20 },
+        "mixed vegetables": { "quantity": "200g",	"cost": 20 },
+        "tamarind": { "quantity": "20g",	"cost": 5 }
+        },
+               	"total_cost": 67
+    },
+    {
+        "user_profile": {
+        "region": "Lakshadweep",
+        "goal": "thyroid balance",
+        "health_conditions": ["hypothyroidism"],
+        "budget": 120
+        },
+        "meal_plan": [
+        { "name": "Fish Curry", "cost": 65, "ingredients": ["fish", "coconut milk", "tamarind"] },
+        { "name": "Rice", "cost": 50, "ingredients": ["rice", "salt"] }
+        ],
+        "grocery_list": {
+        "fish": { "quantity": "200g",	"cost": 40 },
+        "coconut milk": { "quantity": "200ml",	"cost": 15 },
+        "tamarind": { "quantity": "20g",	"cost": 5 },
+        "rice": { "quantity": "250g",	"cost": 18 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 80
+    },
+  {
+    "user_profile": {
+      "region": "Tripura",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Pumpkin Stir Fry", "cost": 55, "ingredients": ["pumpkin", "mustard seeds", "green chili"] },
+      { "name": "Red Rice", "cost": 50, "ingredients": ["red rice", "salt"] }
+    ],
+    "grocery_list": {
+      "pumpkin": { "quantity": "300g", "cost": 20 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "red rice": { "quantity": "250g", "cost": 25 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 57
+  },
+  {
+    "user_profile": {
+      "region": "Manipur",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Ngari Fish Curry", "cost": 80, "ingredients": ["fermented fish", "mustard oil", "green chili"] },
+      { "name": "Sticky Rice", "cost": 60, "ingredients": ["sticky rice", "salt"] }
+    ],
+    "grocery_list": {
+      "fermented fish": { "quantity": "150g", "cost": 35 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "sticky rice": { "quantity": "250g", "cost": 18 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 72
+  },
+  {
+    "user_profile": {
+      "region": "Uttarakhand",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Mandua Roti", "cost": 60, "ingredients": ["finger millet flour", "water", "salt"] },
+      { "name": "Pahadi Bhatt Curry", "cost": 50, "ingredients": ["black soybeans", "onion", "cumin"] }
+    ],
+    "grocery_list": {
+      "finger millet flour": { "quantity": "250g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 },
+      "black soybeans": { "quantity": "200g", "cost": 25 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "cumin": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 57
+  },
+  {
+    "user_profile": {
+      "region": "Haryana",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Bathua Saag", "cost": 50, "ingredients": ["bathua", "garlic", "mustard oil"] },
+      { "name": "Bajra Roti", "cost": 45, "ingredients": ["bajra flour", "water", "salt"] }
+    ],
+    "grocery_list": {
+      "bathua": { "quantity": "200g", "cost": 20 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "mustard oil": { "quantity": "50ml", "cost": 12 },
+      "bajra flour": { "quantity": "200g", "cost": 15 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 54
+  },
+  {
+    "user_profile": {
+      "region": "Tamil Nadu",
+      "goal": "energy boost",
+      "health_conditions": ["low iron"],
+      "budget": 130
+    },
+    "meal_plan": [
+      { "name": "Keerai Masiyal", "cost": 65, "ingredients": ["amaranth leaves", "garlic", "mustard seeds"] },
+      { "name": "Ragi Kali", "cost": 55, "ingredients": ["ragi flour", "water", "ghee"] }
+    ],
+    "grocery_list": {
+      "amaranth leaves": { "quantity": "200g", "cost": 20 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "mustard seeds": { "quantity": "20g", "cost": 5 },
+      "ragi flour": { "quantity": "250g", "cost": 20 },
+      "ghee": { "quantity": "50ml", "cost": 15 }
+    },
+    "total_cost": 65
+  },
+  {
+    "user_profile": {
+      "region": "Delhi",
+      "goal": "fat loss",
+      "health_conditions": ["high cholesterol"],
+      "budget": 110
+    },
+    "meal_plan": [
+      { "name": "Besan Chilla", "cost": 55, "ingredients": ["besan", "onion", "green chili"] },
+      { "name": "Cabbage Stir Fry", "cost": 50, "ingredients": ["cabbage", "cumin", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "besan": { "quantity": "200g", "cost": 15 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "green chili": { "quantity": "2", "cost": 5 },
+      "cabbage": { "quantity": "1", "cost": 20 },
+      "cumin": { "quantity": "10g", "cost": 5 },
+      "mustard seeds": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 55
+  },
+  {
+    "user_profile": {
+      "region": "Kashmir",
+      "goal": "muscle gain",
+      "health_conditions": ["low protein"],
+      "budget": 150
+    },
+    "meal_plan": [
+      { "name": "Rogan Josh", "cost": 85, "ingredients": ["mutton", "yogurt", "spices"] },
+      { "name": "Kashmiri Pulao", "cost": 60, "ingredients": ["rice", "dry fruits", "saffron"] }
+    ],
+    "grocery_list": {
+      "mutton": { "quantity": "200g", "cost": 50 },
+      "yogurt": { "quantity": "200ml", "cost": 15 },
+      "spices": { "quantity": "mixed", "cost": 10 },
+      "rice": { "quantity": "250g", "cost": 18 },
+      "dry fruits": { "quantity": "50g", "cost": 20 },
+      "saffron": { "quantity": "1g", "cost": 15 }
+    },
+    "total_cost": 128
+  },
+  {
+    "user_profile": {
+      "region": "Bihar",
+      "goal": "thyroid balance",
+      "health_conditions": ["hypothyroidism"],
+      "budget": 120
+    },
+    "meal_plan": [
+      { "name": "Sattu Paratha", "cost": 60, "ingredients": ["sattu", "wheat flour", "onion"] },
+      { "name": "Tomato Chutney", "cost": 50, "ingredients": ["tomato", "garlic", "mustard seeds"] }
+    ],
+    "grocery_list": {
+      "sattu": { "quantity": "200g", "cost": 20 },
+      "wheat flour": { "quantity": "250g", "cost": 18 },
+      "onion": { "quantity": "1", "cost": 5 },
+      "tomato": { "quantity": "2", "cost": 10 },
+      "garlic": { "quantity": "20g", "cost": 5 },
+      "mustard seeds": { "quantity": "10g", "cost": 5 }
+    },
+    "total_cost": 63
+  },
+  {
+    "user_profile": {
+      "region": "Puducherry",
+      "goal": "diabetes control",
+      "health_conditions": ["type 2 diabetes"],
+      "budget": 100
+    },
+    "meal_plan": [
+      { "name": "Vegetable Stew", "cost": 55, "ingredients": ["carrot", "beans", "coconut milk"] },
+      { "name": "Brown Rice", "cost": 45, "ingredients": ["brown rice", "salt"] }
+    ],
+    "grocery_list": {
+      "carrot": { "quantity": "1", "cost": 5 },
+      "beans": { "quantity": "100g", "cost": 15 },
+      "coconut milk": { "quantity": "200ml", "cost": 15 },
+      "brown rice": { "quantity": "200g", "cost": 20 },
+      "salt": { "quantity": "10g", "cost": 2 }
+    },
+    "total_cost": 57
+    },
+    {
+            "user_profile": {
+            "region": "Andaman & Nicobar Islands",
+            "goal": "fat loss",
+            "health_conditions": ["high cholesterol"],
+            "budget": 110
+            },
+            "meal_plan": [
+            { "name": "Fish Curry", "cost": 55, "ingredients": ["fish", "coconut milk", "tamarind"] },
+            { "name": "Red Rice", "cost": 50, "ingredients": ["red rice", "salt"] }
+            ],
+            "grocery_list": {
+            "fish": { "quantity": "200g",	"cost": 40 },
+            "coconut milk": { "quantity": "200ml",	"cost": 15 },
+            "tamarind": { "quantity": "20g",	"cost": 5 },
+            "red rice": { "quantity": "250g",	"cost": 25 },
+            "salt": { "quantity": "10g",	"cost": 2 }
+            },
+                 	"total_cost": 87
+        },
+    {
+        "user_profile": {
+        "region": "Chhattisgarh",
+        "goal": "muscle gain",
+        "health_conditions": ["low protein"],
+        "budget": 140
+        },
+        "meal_plan": [
+        { "name": "Chana Samosa", "cost": 70, "ingredients": ["chickpeas", "wheat flour", "spices"] },
+        { "name": "Rice Kheer", "cost": 60, "ingredients": ["rice", "milk", "cardamom"] }
+        ],
+        "grocery_list": {
+        "chickpeas": { "quantity": "200g",	"cost": 20 },
+        "wheat flour": { "quantity": "250g",	"cost": 18 },
+        "spices": { "quantity": "10g",	"cost": 5 },
+        "rice": { "quantity": "200g",	"cost": 15 },  
+        "milk": { "quantity": "200ml",	"cost": 12 },
+        "cardamom": { "quantity": "5g",	"cost": 10 }
+        },
+               	"total_cost": 80
+    },
+    {
+        "user_profile": {
+        "region": "Jharkhand",
+        "goal": "thyroid balance",
+        "health_conditions": ["hypothyroidism"],
+        "budget": 120
+        },
+        "meal_plan": [
+        { "name": "Litti Chokha", "cost": 65, "ingredients": ["whole wheat flour", "sattu", "eggplant"] },
+        { "name": "Rice", "cost": 50, "ingredients": ["rice", "salt"] }
+        ],
+        "grocery_list": {
+        "whole wheat flour": { "quantity": "250g",	"cost": 15 },
+        "sattu": { "quantity": "200g",	"cost": 20 },
+        "eggplant": { "quantity": "1",	"cost": 10 },
+        "rice": { "quantity": "250g",	"cost": 18 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 65
+    },
+    {
+        "user_profile": {
+        "region": "Goa",
+        "goal": "diabetes control",
+        "health_conditions": ["type 2 diabetes"],
+        "budget": 100
+        },
+        "meal_plan": [
+        { "name": "Vegetable Xacuti", "cost": 55, "ingredients": ["mixed vegetables", "coconut", "spices"] },
+        { "name": "Brown Rice", "cost": 45, "ingredients": ["brown rice", "salt"] }
+        ],
+        "grocery_list": {
+        "mixed vegetables": {	"quantity": "200g",	"cost": 20 },
+       	"coconut": {	"quantity": "1",	"cost": 15 },
+       	"spices": {	"quantity": "10g",	"cost": 10 },
+       	"brown rice": {	"quantity": "200g",	"cost": 20 },
+       	"salt": {	"quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 67
+    },
+    {
+        "user_profile": {
+        "region": "Sikkim",
+        "goal": "energy boost",
+        "health_conditions": ["low iron"],
+        "budget": 130
+        },
+        "meal_plan": [
+        { "name": "Gundruk Soup", "cost": 65, "ingredients": ["gundruk", "tomato", "garlic"] },
+        { "name": "Rice Roti", "cost": 55, "ingredients": ["rice flour", "water", "salt"] }
+        ],
+        "grocery_list": {
+        "gundruk": { "quantity": "100g",	"cost": 30 },
+        "tomato": { "quantity": "2",	"cost": 10 },
+        "garlic": { "quantity": "20g",	"cost": 5 },
+        "rice flour": { "quantity": "200g",	"cost": 15 },
+        "water": { "quantity": "as needed",	"cost": 0 },
+        "salt": { "quantity": "10g",	"cost": 2 }
+        },
+               	"total_cost": 62
+    },
+    {
+        "user_profile": {
+        "region": "Telangana",
+        "goal": "fat loss",
+        "health_conditions": ["high cholesterol"],
+        "budget": 110
+        },
+        "meal_plan": [
+        { "name": "Jonna Roti", "cost": 60, "ingredients": ["jowar flour", "water", "salt"] },
+        { "name": "Pesarattu", "cost": 55, "ingredients": ["green gram", "ginger", "green chili"] }
+        ],
+        "grocery_list": {
+        "jowar flour": { "quantity": "250g",	"cost": 20 },
+        "water": { "quantity": "as needed",	"cost": 0 },
+        "salt": { "quantity": "10g",	"cost": 2 },
+        "green gram": { "quantity": "200g",	"cost": 20 },
+        "ginger": { "quantity": "20g",	"cost": 5 },
+        "green chili": { "quantity": "2",	"cost": 5 }
+        },
+               	"total_cost": 52
+    }
+]
+    
+
+    
+    
+
+
+
+    

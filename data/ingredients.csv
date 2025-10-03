@@ -1,0 +1,21 @@
+name,nutrition_tags,region,cost_per_kg,availability
+rice,"complex carbs","Andhra Pradesh",40,high
+dal,"high protein, high fiber","Pan-India",90,high
+curd,"healthy fats, probiotics","Pan-India",60,high
+spinach,"leafy greens, iron","Pan-India",25,high
+banana,"natural sugar, high potassium","Kerala",50,high
+jowar,"low glycemic index, complex carbs","Maharashtra",35,medium
+poha,"complex carbs, easy to digest","Maharashtra",45,medium
+paneer,"high protein, healthy fats","Punjab",280,medium
+mutton,"high protein, iron","Kashmir",600,low
+mustard greens,"leafy greens, potassium","Punjab",30,medium
+groundnuts,"healthy fats, protein","Andhra Pradesh",100,high
+besan,"high fiber, low GI","Gujarat",70,high
+coconut oil,"healthy fats, anti-inflammatory","Kerala",180,medium
+turnip,"fiber, vitamin C","Kashmir",20,low
+onion,"antioxidants, fiber","Pan-India",30,high
+potato,"complex carbs, vitamin C","Pan-India",25,high
+green chilies,"vitamin C, metabolism booster","Pan-India",60,high
+yogurt,"probiotics, calcium","Pan-India",60,high
+wheat flour,"complex carbs, fiber","Punjab",35,high
+red rice,"complex carbs, antioxidants","Kerala",55,medium

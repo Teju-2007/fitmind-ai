@@ -1,0 +1,11 @@
+name,ingredients,nutrition_tags,region,cost
+Jowar Upma,"jowar, onion, green chilies, curd","low glycemic index, high fiber, healthy fats","Maharashtra",80
+Palak Dal,"dal, spinach, garlic, onion","high protein, iron, high fiber","Andhra Pradesh",60
+Paneer Salad,"paneer, tomato, cucumber, curd","high protein, healthy fats, probiotics","Punjab",120
+Besan Chilla,"besan, onion, green chilies","high fiber, low glycemic index, protein","Gujarat",50
+Red Rice Fish Curry,"red rice, fish, mustard oil, banana","omega-3s, complex carbs, high potassium","Kerala",150
+Turnip Mutton Stew,"mutton, turnip, spinach, curd","iron, high protein, healthy fats","Kashmir",200
+Poha Bowl,"poha, groundnuts, onion, banana","complex carbs, healthy fats, high potassium","Maharashtra",45
+Coconut Idli,"idli rice, coconut, curry leaves","complex carbs, healthy fats, fiber","Tamil Nadu",70
+Bajra Khichdi,"bajra, besan, curd, onion","low glycemic index, high fiber, healthy fats","Rajasthan",65
+Spinach Yogurt Dip,"spinach, yogurt, garlic","leafy greens, probiotics, vitamin C","Andhra Pradesh",40

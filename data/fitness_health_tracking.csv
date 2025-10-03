@@ -1,0 +1,11 @@
+mood,activity_type,sleep_hours,nutrients,tags,meal_suggestion
+low,walking,6,"Omega-3;Vitamin D","mood-boosting;light","Grilled salmon with leafy greens"
+tired,yoga,5,"Iron;Magnesium","energy-restoring;gentle","Spinach dal with brown rice"
+anxious,cycling,7,"Magnesium;B-complex","calming;anti-inflammatory","Oats with banana and flaxseed"
+neutral,walking,8,"Balanced macros","maintenance","Mixed vegetable khichdi"
+happy,running,7,"Protein;Complex carbs","performance;energizing","Paneer wrap with quinoa"
+frustrated,gym,6,"Zinc;Vitamin C","stress-reducing;immune-support","Chickpea salad with citrus dressing"
+calm,yoga,8,"Vitamin D;Omega-3","mindful;anti-inflammatory","Avocado toast with sesame seeds"
+overwhelmed,dance,6,"Magnesium;Adaptogens","stress-relief;energizing","Sweet potato chaat with mint"
+confident,swimming,7,"Protein;Electrolytes","hydration;muscle-repair","Egg curry with coconut water"
+low,walking,5,"Folate;Iron","uplifting;nutrient-dense","Beetroot paratha with curd"
