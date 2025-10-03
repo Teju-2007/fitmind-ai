@@ -6,4 +6,5 @@ torchvision
 matplotlib
 numpy
 pytesseract
-requests
+requests 
+python-dotenv
