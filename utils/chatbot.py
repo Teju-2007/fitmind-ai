@@ -6,6 +6,8 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 def show_chatbot():
+    if "chatbot_state" not in st.session_state:
+        st.session_state.chatbot_state = {}
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
