@@ -1601,5 +1601,74 @@
     "mood": "\ud83d\ude34 Tired",
     "activity_type": "Running",
     "sleep_hours": 8.0
+  },
+  {
+    "name": " Chillapallli Tejaveni",
+    "monthly_budget": 1000,
+    "health_conditions": [
+      "none"
+    ],
+    "fitness_goals": [
+      "to build muscle"
+    ],
+    "diet_type": "vegan",
+    "location_input": "Chennai",
+    "location": {
+      "city": "Chennai",
+      "country": "India",
+      "region": "Tamil Nadu",
+      "latitude": 13.0825,
+      "longitude": 80.275
+    },
+    "regional_ingredients": [],
+    "mood": "\ud83d\ude34 Tired",
+    "activity_type": "Walking",
+    "sleep_hours": 8.0
+  },
+  {
+    "name": " Chillapallli Tejaveni",
+    "monthly_budget": 500,
+    "health_conditions": [
+      "obesity"
+    ],
+    "fitness_goals": [
+      "need to lose 5 kgs of weight"
+    ],
+    "diet_type": "vegan",
+    "location_input": "Mangalagiri",
+    "location": {
+      "city": "Mangalagiri",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "latitude": 16.43,
+      "longitude": 80.55
+    },
+    "regional_ingredients": [],
+    "mood": "\ud83d\ude34 Tired",
+    "activity_type": "Walking",
+    "sleep_hours": 8.0
+  },
+  {
+    "name": " Chillapallli Tejaveni",
+    "monthly_budget": 1000,
+    "health_conditions": [
+      "obesity"
+    ],
+    "fitness_goals": [
+      "need to lose 5 kgs of weight"
+    ],
+    "diet_type": "vegan",
+    "location_input": "Chennai",
+    "location": {
+      "city": "Chennai",
+      "country": "India",
+      "region": "Tamil Nadu",
+      "latitude": 13.0825,
+      "longitude": 80.275
+    },
+    "regional_ingredients": [],
+    "mood": "\ud83d\ude34 Tired",
+    "activity_type": "Walking",
+    "sleep_hours": 8.0
   }
 ]

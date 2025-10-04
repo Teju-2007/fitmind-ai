@@ -1,11 +1,16 @@
 import streamlit as st
 from utils.openrouter_client import get_chatbot_reply
 
-# 🌟 Initialize chat history
+# 🌟 Initialize chat history 
+
+
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 def show_chatbot():
+    if "proxy" not in st.session_state:
+        st.session_state.proxy = None
+        
     if "chatbot_state" not in st.session_state:
         st.session_state.chatbot_state = {}
 

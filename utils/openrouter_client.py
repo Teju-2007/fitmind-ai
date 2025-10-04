@@ -3,15 +3,15 @@ import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-OPENROUTER_KEY = os.getenv("OPENROUTER_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 def get_chatbot_reply(user_message):
-    if not OPENROUTER_KEY:
+    if not OPENROUTER_API_KEY:
         return "Missing OpenRouter API key. Please check your .env file."
 
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json"
     }
     payload = {
