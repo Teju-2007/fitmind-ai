@@ -1,4 +1,9 @@
-# FitMind AI
+# FitMind AI 
+
+## 🚀 Live Demo
+
+Check out the deployed FitMind AI app:  
+👉 [Launch FitMind AI](https://fitmind-ai-c8cyu3oygbwgnjcaizpz2z.streamlit.app)
 
 FitMind AI is a modular, culturally adaptive wellness assistant designed to support users across India and beyond. It combines personalized fitness planning, nutrition-aware recipe generation, mood-based progress tracking, and intelligent chat support—all powered by resilient architecture and region-aware data.
 
